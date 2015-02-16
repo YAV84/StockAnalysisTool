@@ -22,4 +22,5 @@ TBD
 Technical Details:
 
 Web application built in HTML5, JavaScript, CSS.
-Historical financial data is retrieved from  Google Finance API.
+Historical financial data is retrieved from  Google Finance API
+as JSON through the use of Quandl.com API.
