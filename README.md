@@ -10,7 +10,23 @@ stocks.
 
 Detailed Description:
 
-TBD
+* Environment (sketch to be uploaded):
+  Made with Google's Polymer platform.
+  Window divided in 4 panes: 
+    bottom pane is a core-drawer-panel; 
+    top pane is a core-toolbar.
+    top-right: contains header app name and paper-tabs for navigating betweenn pages.
+    top-left: contains company logo and contact.
+    bottom-left: contains a list of card elements showing information on some stocks (that have been defined as user definable parameters).
+    bottom-right: contains page from currently selected tab.
+
+  (Tentative) Tabs (i.e. accessible pages):
+    - Market Data
+    - Simulation -> defines parameters for new simulation and starts computation
+    - Analysis Results [1] -> contains results of simulation run. New tab created for every simulation ran. Limit max number of Analysis tab?
+    - Analysis Results [2]
+    - ...
+    - Parameters -> user definable parameters related to the web app, e.g. list of stocks to show in bottom-left pane, currency for analysis, ...
 
 
 
